@@ -4,7 +4,7 @@ CFLAGS = -Wall -Werror -Wextra -pedantic
 all: httpserver
 
 httpserver: httpserver.c
-	$(CC) -o httpserver httpserver.c asgn2_helper_funcs.a
+	$(CC) -o httpserver httpserver.c helperfuncs.a
 	
 httpserver.o: *.c
 	&(CC) $(CFLAGS) -c *.c
