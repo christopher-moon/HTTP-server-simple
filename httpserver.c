@@ -9,7 +9,7 @@
 #include <unistd.h>
 #include <stdbool.h>
 
-#include "asgn2_helper_funcs.h"
+#include "helperfuncs.h"
 
 //request struct
 //-----------------------------------------------------------------------------------------------------------------------------
